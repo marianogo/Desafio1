@@ -1,0 +1,28 @@
+.grid-container{
+  display: grid;
+  grid-template-areas: 'header header header header header header'
+                        'navbar content content content  content content '
+                        ;
+
+}
+
+.grid-header{
+  grid-area: header;
+  background-color: #2196F3;
+  color: white;
+  padding: 5px;
+}
+
+.grid-navbar  {
+  grid-area: navbar;
+  background-color: #2196F3;
+  color: white;
+  padding: 5px;
+}
+
+.grid-content{
+  grid-area: content;
+  background-color: antiquewhite;
+  color: black;
+  padding: 5px;
+}
